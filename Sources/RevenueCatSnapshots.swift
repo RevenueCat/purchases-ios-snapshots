@@ -2,7 +2,5 @@ import Foundation
 
 public enum RevenueCatSnapshots {
 
-    public static let bundle: Bundle = .init(for: Token.self)
+    public static let bundle: Bundle = .module
 }
-
-private final class Token {}
